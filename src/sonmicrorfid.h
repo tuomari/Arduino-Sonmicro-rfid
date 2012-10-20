@@ -22,8 +22,8 @@
 
 #include "HardwareSerial.h";
 
-// #define DEBUG 1
-#undef DEBUG
+#define DEBUG 1
+// #undef DEBUG
 enum CardType
 {
    ULTRALIGHT, STANDARD1K, CLASSIC4K, UNKNOWN, UNDEFINED
